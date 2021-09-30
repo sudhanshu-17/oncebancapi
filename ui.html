@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    element.style {
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+#content {
+    margin-left: 30px;
+    font-size: .70em;
+    padding-bottom: 2em;
+}
+BODY {
+    color: #000000;
+    background-color: white;
+    font-family: Verdana;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47rem;
+    
+</style>
+
+<body>
+
+    <div class="cont">
+
+    
+    <form target="_blank" action="https://dev.onebanc.ai/assignment.asmx/GetTransactionHistory" method="POST">
+
+        <table cellspacing="0" cellpadding="4" frame="box" bordercolor="#dcdcdc" rules="none"
+            style="border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td class="frmHeader" background="#dcdcdc" style="border-right: 2px solid white;">Parameter</td>
+                    <td class="frmHeader" background="#dcdcdc">Value</td>
+                </tr>
+
+
+                <tr>
+                    <td class="frmText" style="color: #000000; font-weight: normal;">userId:</td>
+                    <td><input class="frmInput" type="text" size="50" name="userId"></td>
+                </tr>
+
+                <tr>
+                    <td class="frmText" style="color: #000000; font-weight: normal;">recipientId:</td>
+                    <td><input class="frmInput" type="text" size="50" name="recipientId"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td align ="right"> <input type="submit" value="Invoke" class="button"></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </form>
+</div>
+
+
+
+    
+</body>
+
+</html>
